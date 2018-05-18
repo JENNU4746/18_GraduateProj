@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BG
+    uniqueID: 2855368089
+    locked: 0
+  - name: Character
+    uniqueID: 2905413305
+    locked: 0
+  - name: NonClickUI
+    uniqueID: 3007626527
+    locked: 0
+  - name: Text
+    uniqueID: 2394436693
+    locked: 0
+  - name: ClickUI
+    uniqueID: 1771545569
+    locked: 0
