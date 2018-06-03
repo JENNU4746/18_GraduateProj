@@ -237,6 +237,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Ingame\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\Ingame\DialogueMgr.cs" />
     <Compile Include="Assets\Scripts\Start\SceneChange.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
