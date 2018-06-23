@@ -6,6 +6,7 @@ public class DialogueMgr : MonoBehaviour {
 
     private bool isDialogueActive = true;
     public GameObject DialogueWindow;
+    static public bool offTrigger = false;
 
 	// Use this for initialization
 	void Start () {
@@ -20,8 +21,9 @@ public class DialogueMgr : MonoBehaviour {
             if (isDialogueActive == false)
             {
                 isDialogueActive = true;
+                offTrigger = false;
             }
-            else
+            if (offTrigger == true)
             {
                 isDialogueActive = false;
             }
